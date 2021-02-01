@@ -38,7 +38,7 @@ export default function Menu(props) {
                 <nav class="header navbar navbar-expand-lg navbar-light bg-white p-0">
                     <div className="container">
                         <Link className="navbar-brand" to="/">
-                            <img src="/logo.png" alt="Cleude" height="80" />
+                            <img src="/logo.png" alt="Cleude" height="40" />
                         </Link>
 
                         <ul className="navbar-nav">
@@ -150,7 +150,7 @@ export default function Menu(props) {
                 <div style={{ width: 320, maxWidth: window.innerWidth - 70 }}>
                     <List component="nav" className="menu-mobile">
                         <ListItem>
-                            <img className="img-fluid logo-mobile" src="/Logo.png" alt="/home" height="80" />
+                            <img className="img-fluid logo-mobile" src="/Logo.png" alt="/home" height="40" />
                         </ListItem>
                         <ListItem>
                             Cleudinei Fernandes Dos Santos Coutinho.
