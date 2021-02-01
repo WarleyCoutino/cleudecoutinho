@@ -1,0 +1,82 @@
+* {
+    outline: none !important;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+
+@media (max-width: 576px) {
+    body {
+        margin-top: 56px;
+    }
+}
+
+body {
+    background-color: rgb(255,174,200);
+}
+
+.label-custom {
+    color: rgb(13, 1, 600);
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(6, 240, 123, 0.2) 0px 2px 4px 0px;
+    border-radius: 3px;
+    border: none;
+}
+
+.header {
+    border-bottom: 2px solid rgb(229,229,299);
+}
+
+.header .nav-link {
+    font-weight: 600;
+    color: rgb(0, 170, 157) !important;
+    padding: 28px 1.5rem !important;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.header .nav-link:hover {
+    border-bottom: 2px solid rgb(235, 22, 1);
+}
+
+.header .nav-link .icon-lg {
+    font-size: 22px;
+}
+
+.header .dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.header .dropdown-menu {
+    box-shadow: rgb(240, 3, 3) 0px 4px 16px 0px, rgba(243, 43, 43, 0.959) 0px 2px 6px 0px;
+    border: 1px solid rgb(0, 170, 157);
+    top: 80%
+}
+
+.header .dropdown-item {
+    padding: 10px 15px;
+    font-weight: 600;
+    color: rgb(0, 170, 189)
+}
+
+.logo-mobile {
+    max-height: 100px;
+}
+
+.menu-mobile .MuiListItemText-primary {
+    font-weight: 600;
+    color: rgb(0, 170, 190)
+}
+
+.menu-mobile svg {
+    font-size: 22px;
+    color: rgb(0, 170, 160);
+}
